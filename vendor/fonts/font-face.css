@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(./MuseoSansCyrl100.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(./MuseoSansCyrl300.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./MuseoSansCyrl700.ttf) format('truetype')
+}
