@@ -1,0 +1,43 @@
+.header__logo-container {
+  position: relative;
+  margin-right: 138px;
+  height: calc(100% - 1px);
+  width: 275px;
+  border: 1px solid #989393;
+  transition: all 0.2s ease;
+}
+
+.header__logo-container:before,
+.header__logo-container:after,
+.header__logo-container span:before,
+.header__logo-container span:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+}
+.header__logo-container:before {
+  top: 0;
+  left: -1px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+.header__logo-container:after {
+  top: 0;
+  right: -1px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.header__logo-container span:before {
+  bottom: -1px;
+  left: -1px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+.header__logo-container span:after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
