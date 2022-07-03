@@ -41,3 +41,31 @@
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
 }
+
+@media (max-width: 1110px) {
+  .header__logo-container {
+    margin-right: 25px;
+    width: 270px;
+  }
+}
+
+@media (max-width: 855px) {
+  .header__logo-container {
+    margin-right: 5px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 790px) {
+  .header__logo-container {
+    margin-right: 35px;
+    width: 270px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__logo-container {
+    margin-right: 25px;
+    width: 150px;
+  }
+}

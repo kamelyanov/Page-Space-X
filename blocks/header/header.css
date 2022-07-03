@@ -6,3 +6,9 @@
   flex-direction: row;
   border-bottom: 1px solid #989393;
 }
+
+@media (max-width: 790px) {
+  .header {
+    height: 170px;
+  }
+}

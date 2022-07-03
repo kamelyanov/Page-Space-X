@@ -5,5 +5,32 @@
   line-height: 50px;
   z-index: 1;
   font-weight: 700;
-  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 1180px) {
+  .content__name_title {
+    font-size: 46px;
+    line-height: 50px;
+    background-image: linear-gradient(90deg, #fff, #ff7a41 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width: 860px) {
+  .content__name_title {
+    font-size: 52px;
+    line-height: 58px;
+    background-image: linear-gradient(180deg, #fff 60%, #ff7a41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width: 540px) {
+  .content__name_title {
+    font-size: 28px;
+    line-height: 32px;
+  }
 }

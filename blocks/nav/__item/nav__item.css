@@ -12,3 +12,19 @@
   border-bottom: 1px #cdcdcd solid;
   opacity: 0.8;
 }
+
+@media (max-width: 1110px) {
+  .nav__item {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 3px;
+  }
+}
+
+@media (max-width: 790px) {
+  .nav__item {
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 2px;
+  }
+}

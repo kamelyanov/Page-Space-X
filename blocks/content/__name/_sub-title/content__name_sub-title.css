@@ -5,3 +5,16 @@
   font-weight: 300;
   letter-spacing: 1px;
 }
+
+@media (max-width: 860px) {
+  .content__name_sub-title {
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 540px) {
+  .content__name_sub-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

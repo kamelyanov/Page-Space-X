@@ -6,3 +6,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media (max-width: 860px) {
+  .content {
+    flex-direction: column;
+  }
+}

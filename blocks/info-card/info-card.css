@@ -45,3 +45,46 @@
   border-image: linear-gradient(308deg, transparent 35%, #cdcdcd);
   border-image-slice: 1;
 }
+
+@media (min-width: 692px) and (max-width: 860px) {
+  .info__card {
+    width: 165px;
+    height: 165px;
+  }
+
+  .info__card:nth-child(1):hover {
+    border-image: linear-gradient(45deg, transparent 1%, #cdcdcd);
+    border-image-slice: 1;
+  }
+  
+  .info__card:nth-child(2):hover {
+    border-image: linear-gradient(15deg, transparent 35%, #cdcdcd);
+    border-image-slice: 1;
+  }
+  
+  .info__card:nth-child(3):hover {
+    border-image: linear-gradient(-15deg, transparent 35%, #cdcdcd);
+    border-image-slice: 1;
+  }
+  
+  .info__card:nth-child(4):hover {
+    border-image: linear-gradient(-45deg, transparent 35%, #cdcdcd);
+    border-image-slice: 1;
+  }
+}
+
+@media (max-width: 691px) {
+  .info__card {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 630px) {
+  .info__card {
+    width: 80%;
+    height: 112px;
+    margin: 0 auto 0;
+    border: 2px solid;
+  }
+}
