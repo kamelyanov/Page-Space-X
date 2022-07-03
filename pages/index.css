@@ -22,5 +22,6 @@
 @import url(../blocks/content/__image/content__image.css);
 @import url(../blocks/content/__info/content__info.css);
 @import url(../blocks/info-card/info-card.css);
-@import url(../blocks/info-card/info-card.css);
+@import url(../blocks/info-card/__text/info-card__text.css);
 @import url(../blocks/info-card/__text/_main/info-card__text_main.css);
+@import url(../blocks/info-card/__text/_small/info-card__text_small.css);

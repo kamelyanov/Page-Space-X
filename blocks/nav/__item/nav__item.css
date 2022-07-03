@@ -5,7 +5,7 @@
   line-height: 21px;
   letter-spacing: normal;
   padding-bottom: 5px;
-  transition: opasity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .nav__item:hover {

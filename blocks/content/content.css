@@ -1,6 +1,8 @@
 .content {
-  max-width: 1170px;
+  max-width: 1178px;
   margin: 0 auto 0;
   display: flex;
-  color: #cdcdcd
+  color: #cdcdcd;
+  flex-direction: row;
+  justify-content: space-between;
 }

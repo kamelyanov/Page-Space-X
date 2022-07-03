@@ -1,3 +1,47 @@
 .info__card {
-  
+  width: 185px;
+  height: 185px;
+  box-sizing: border-box;
+  font-family: "Museo Sans Cyrl";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-image: inherit;
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  transition: all 0.2s ;
+}
+
+.info__card:nth-child(1):hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border: 2px solid;
+  border-image: linear-gradient(138deg, transparent 35%, #cdcdcd);
+  border-image-slice: 1;
+}
+
+.info__card:nth-child(2):hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border: 2px solid;
+  border-image: linear-gradient(228deg, transparent 35%, #cdcdcd);
+  border-image-slice: 1;
+}
+
+.info__card:nth-child(3):hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border: 2px solid;
+  border-image: linear-gradient(48deg, transparent 35%, #cdcdcd);
+  border-image-slice: 1;
+}
+
+.info__card:nth-child(4):hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border: 2px solid;
+  border-image: linear-gradient(308deg, transparent 35%, #cdcdcd);
+  border-image-slice: 1;
 }
