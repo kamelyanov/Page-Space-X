@@ -1,0 +1,25 @@
+.content__name {
+  margin-top: 110px;
+  font-family: "Museo Sans Cyrl";
+  background-color: #fff;
+  background-image: linear-gradient(100deg, #fff, #ff4d00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 1170px) {
+  .content__name::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    bottom: -131px;
+    right: -343px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-image: url(../../../images/backgroundMars.png);
+  }
+}
+

@@ -15,12 +15,12 @@
 /*content*/
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__name/content__name.css);
+@import url(../blocks/content/__name/_title/content__name_title.css);
+@import url(../blocks/content/__name/_sub-title/content__name_sub-title.css);
 @import url(../blocks/content/__button/content__button.css);
+@import url(../blocks/content/__image-container/content__image-container.css);
 @import url(../blocks/content/__image/content__image.css);
 @import url(../blocks/content/__info/content__info.css);
 @import url(../blocks/info-card/info-card.css);
 @import url(../blocks/info-card/info-card.css);
 @import url(../blocks/info-card/__text/_main/info-card__text_main.css);
-@import url(../blocks/name/name.css);
-@import url(../blocks/name/__sub-title/name__sub-title.css);
-@import url(../blocks/name/__title/name__title.css);

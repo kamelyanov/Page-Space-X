@@ -1,0 +1,9 @@
+.content__name_title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 58px;
+  line-height: 50px;
+  z-index: 1;
+  font-weight: 700;
+  border-radius: 30px;
+}
